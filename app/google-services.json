@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "468294898471",
+    "firebase_url": "https://investor-pesapass.firebaseio.com",
+    "project_id": "investor-pesapass",
+    "storage_bucket": "investor-pesapass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468294898471:android:333e4840f1c4d906",
+        "android_client_info": {
+          "package_name": "com.virscom.investor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468294898471-9a7anfttd5duajclb2ji3i2vs0q5apth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS_FH2azJSdCT7BVFaO7X27l-KdZg7Q9g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

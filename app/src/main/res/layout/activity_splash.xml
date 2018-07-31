@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.virscom.investor.Activities.Splash">
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:scaleType="centerCrop"
+     android:src="@raw/background"
+     />
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@drawable/linear_bg"
+     android:orientation="vertical">
+  <!--<android.support.design.widget.AppBarLayout-->
+      <!--android:layout_width="match_parent"-->
+      <!--android:layout_height="wrap_content">-->
+  <!--<android.support.v7.widget.Toolbar-->
+      <!--android:layout_width="match_parent"-->
+      <!--android:layout_height="wrap_content"/>-->
+  <!--</android.support.design.widget.AppBarLayout>-->
+ <ImageView
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:layout_marginTop="20dp"
+     android:src="@drawable/ic_launcher"
+     android:scaleType="fitXY"
+     android:layout_gravity="center_horizontal"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+     android:textColor="@color/White"
+     android:textSize="25sp"
+     android:fontFamily="sans-serif"
+     android:layout_marginTop="10dp"
+     android:text="PESA  PASS investor"
+     android:textAllCaps="true"
+     android:textStyle="bold"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="40dp"
+      android:layout_marginBottom="10dp"
+      android:layout_gravity="center_horizontal"
+      android:textColor="@color/White"
+      android:textSize="20sp"
+      android:text="Get into the biggest movement"/>
+
+
+
+  <Button
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="40dp"
+      android:text="Continue"
+      android:id="@+id/bt_accept"
+      android:textColor="@color/White"
+      android:background="@drawable/cell_background"/>
+
+ </LinearLayout>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@color/White"
+     android:layout_marginTop="30dp"
+     android:layout_above="@+id/tv_virscom"
+     android:layout_marginBottom="40dp"
+     android:layout_centerHorizontal="true"
+     android:layout_alignParentBottom="true"
+     android:text="Terms and Conditions"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20dp"
+     android:textColor="@color/White"
+     android:id="@+id/tv_virscom"
+     android:layout_centerHorizontal="true"
+     android:layout_alignParentBottom="true"
+     android:text="Powered by Virscom"/>
+</RelativeLayout>
